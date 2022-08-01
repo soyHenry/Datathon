@@ -16,9 +16,12 @@ Se utilizará para evaluar el desempeño del/los modelo/s la raíz cuadrada del 
 
 $$ RMSLE=\sqrt{\frac{1}{n}\sum_{i=1}^n(\log (p_i + 1)-\log (a_i+1))^2}$$
 
+siendo $p_i$ el valor predicho y $a_i$ el actual.
+
+
 ## Archivos provistos
 
-Nos proveen los archivos 'House_train_raw.csv', con 1460 observaciones y 81 dimensiones, incluyendo el precio de las casas, y 'House_test_raw.csv', con 1469 observaciones y 80 dimensiones.
+Nos proveen los archivos 'House_train_raw.csv', con 1460 observaciones y 81 dimensiones, incluyendo el precio de las casas, y 'House_test_raw.csv', con 1469 observaciones y 80 dimensiones. La primera 
 
 ## Descripción de las dimensiones
 
