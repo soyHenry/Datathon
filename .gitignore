@@ -5,3 +5,7 @@ package-lock.json
 _dist
 _cache
 /_src/localStyles
+
+#local
+environment
+.ipynb_checkpoints/
