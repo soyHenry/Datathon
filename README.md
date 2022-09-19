@@ -18,6 +18,9 @@ Gracias a las nuevas herramientas como el uso de geolocalizadores, registros dig
 
 Somos parte de una empresa de logística que trabaja para un portal importante de E-Commerce, y nuestro Team Leader nos da la tarea de implementar un modelo que nos permita predecir si un envío llegará a tiempo o no, según la información contenida en el dataset puesto a disposición para poder prestar atención y mejor seguimiento a aquellos envíos que pueden llegar a dar problemas.
 
+## Entrega
+Deben tener el código en un archivo .py o un Jupyter Notebook .ipynb. Debe incluir un buen análisis EDA, feature engineerging explicar paso a paso en el notebook qué hicieron y por qué o adjuntar documentación en archivo PDF o presentación. Es obligatorio que el script genere un archivo .csv sólo con las predicciones, una columna que debe llamarse 'pred' y tenga todos los valores de las predicciones, un valor por fila. De no llamarse así la columna, nuestro script de validación NO LO VA A TOMAR. El nombre del archivo debe ser su usuario de github, si su usuario de github es 'pjr95', el archivo .csv con las predicciones debe llamarse 'pjr95.csv'. Vamos a validar tanto los datos que suban como el código.
+
 ## Métrica a utilizar
 
 Como método de evaluación del desempeño del modelo, se utilizará Exhaustividad (Recall) de la matriz de confusión (Confusion Matrix)
