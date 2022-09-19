@@ -29,8 +29,8 @@ siendo $TP$ los verdaderos positivos, $TN$ verdaderos negativos y $FN$ los falso
 ## Archivos provistos
 
 Se proveen los archivos:
-- 'E-Commerce_train.xlsx', con 8999 observaciones y 12 dimensiones, incluyendo información sobre si el envío llegó a tiempo o no en el momento del registro. 
-- 'E-Commerce_test.xlsx', con 10998 observaciones y 11 dimensiones, sin incluir información sobre si el envío llegó a tiempo o no en el momento del registro.
+- 'E-Commerce_train.xlsx', con 8998 observaciones y 12 dimensiones, incluyendo información sobre si el envío llegó a tiempo o no en el momento del registro. 
+- 'E-Commerce_test.xlsx', con 2000 observaciones y 11 dimensiones, sin incluir información sobre si el envío llegó a tiempo o no en el momento del registro.
 
 ## Descripción de las dimensiones
 
