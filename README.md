@@ -47,16 +47,6 @@ Se proveen los archivos:
 - Weight_in_gms: Peso del paquete de la orden, en gramos (valor numérico entero de 1001 a 7846).
 - Reached.on.Time_Y.N: Información sobre la llegada del paquete a destino (1 si llegó a tiempo, 0 si no llegó a tiempo).
 
-## Muy Importante -> VIDEO DEMO
-
-El video no deberá contar con más de 5 minutos, donde deberán mostrar los análisis del dataset, por qué tomaron cada paso, por qué eligieron ese modelo y cómo se genera el archivo de la predicción.
-Se deberá subir el video a YouTube y en configuración de privacidad brindar
-acceso a quien posee el link. Asegurarse que el código grabado sea legible en
-todo momento. Para esto pueden utilizar Loom, Zoom u otra capturadora que
-posea entrada de audio para la entrada de su explicación.
-La descripción del mismo debera ser: NOMBRE Y APELLIDO ESTUDIANTE
-- DSH - ML.
-Ejemplo -> Fulanitode Tal - DSH - ML
 
 ## Sugerencias
 
