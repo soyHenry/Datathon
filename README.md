@@ -18,6 +18,9 @@ Gracias a las nuevas herramientas como el uso de geolocalizadores, registros dig
 
 Somos parte de una empresa de logística que trabaja para un portal importante de E-Commerce, y nuestro Team Leader nos da la tarea de implementar un modelo que nos permita predecir si un envío llegará a tiempo o no, según la información contenida en el dataset puesto a disposición para poder prestar atención y mejor seguimiento a aquellos envíos que pueden llegar a dar problemas.
 
+## Entrega
+Deben tener el código en un archivo .py o un Jupyter Notebook .ipynb. Debe incluir un buen análisis EDA, feature engineerging explicar paso a paso en el notebook qué hicieron y por qué o adjuntar documentación en archivo PDF o presentación. Es obligatorio que el script genere un archivo .csv sólo con las predicciones, una columna que debe llamarse 'pred' y tenga todos los valores de las predicciones, un valor por fila. De no llamarse así la columna, nuestro script de validación NO LO VA A TOMAR. El nombre del archivo debe ser su usuario de github, si su usuario de github es 'pjr95', el archivo .csv con las predicciones debe llamarse 'pjr95.csv'. Vamos a validar tanto los datos que suban como el código.
+
 ## Métrica a utilizar
 
 Como método de evaluación del desempeño del modelo, se utilizará Exhaustividad (Recall) de la matriz de confusión (Confusion Matrix)
@@ -29,8 +32,8 @@ siendo $TP$ los verdaderos positivos, $TN$ verdaderos negativos y $FN$ los falso
 ## Archivos provistos
 
 Se proveen los archivos:
-- 'E-Commerce_train.xlsx', con 8999 observaciones y 12 dimensiones, incluyendo información sobre si el envío llegó a tiempo o no en el momento del registro. 
-- 'E-Commerce_test.xlsx', con 10998 observaciones y 11 dimensiones, sin incluir información sobre si el envío llegó a tiempo o no en el momento del registro.
+- 'E-Commerce_train.xlsx', con 8998 observaciones y 12 dimensiones, incluyendo información sobre si el envío llegó a tiempo o no en el momento del registro. 
+- 'E-Commerce_test.xlsx', con 2000 observaciones y 11 dimensiones, sin incluir información sobre si el envío llegó a tiempo o no en el momento del registro.
 
 ## Descripción de las dimensiones
 
@@ -47,16 +50,6 @@ Se proveen los archivos:
 - Weight_in_gms: Peso del paquete de la orden, en gramos (valor numérico entero de 1001 a 7846).
 - Reached.on.Time_Y.N: Información sobre la llegada del paquete a destino (1 si llegó a tiempo, 0 si no llegó a tiempo).
 
-## Muy Importante -> VIDEO DEMO
-
-El video no deberá contar con más de 5 minutos, donde deberán mostrar los análisis del dataset, por qué tomaron cada paso, por qué eligieron ese modelo y cómo se genera el archivo de la predicción.
-Se deberá subir el video a YouTube y en configuración de privacidad brindar
-acceso a quien posee el link. Asegurarse que el código grabado sea legible en
-todo momento. Para esto pueden utilizar Loom, Zoom u otra capturadora que
-posea entrada de audio para la entrada de su explicación.
-La descripción del mismo debera ser: NOMBRE Y APELLIDO ESTUDIANTE
-- DSH - ML.
-Ejemplo -> Fulanitode Tal - DSH - ML
 
 ## Sugerencias
 
