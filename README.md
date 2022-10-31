@@ -34,11 +34,13 @@ Cuando entreguen les pedimos que verifiquen que su usuario de GitHub aparezca en
 ​
 ## Métrica a utilizar
 ​
-Como método de evaluación del desempeño del modelo, se utilizará la métrica de Exhaustividad (Recall) para las propiedades caras., a partir de la matriz de confusión (Confusion Matrix). 
+Como método de evaluación del desempeño del modelo, se utilizará la métrica de Exhaustividad (Recall) para las propiedades caras, a partir de la matriz de confusión (Confusion Matrix). 
 ​
 $$ Recall=\frac{TP}{TP+FN}$$
 ​
 Donde $TP$ son los verdaderos positivos y $FN$ los falsos negativos.
+
+Adicionalmente, se incluye la Accuracy como métrica de control.
 ​
 ## Archivos provistos
 ​
