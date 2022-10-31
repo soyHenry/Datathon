@@ -81,5 +81,7 @@ Se proveen los archivos dentro del archivo comprimido 'properties_colombia.zip':
 - Exploren el dataset. Saquen medidas resumen, vean distribuciones de los datos, analicen bien el tipo de problema, etc.
 - Piensen que tipo de modelo podría ser aplicable según la descripción del problema y el tipo de variable de salida.
 - Busquen información sobre la métrica aplicada, cada métrica tiene pros y contras.
+- Siempre que vean en un dataset coordenadas geoespaciales, es buena estrategia revisar que las mismas correspondan en el mapa al lugar que deberían.
+- Si se presentan comentarios, es una buena oportunidad de aplicar procesamiento del lenguaje natural (NLP) para mejorar nuestro modelo.
 - En cuanto a la utilización de git, recuerden que si quieren hacer un cambio experimental pero no quieren romper el modelo, pueden utilizar [branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
 - Aprovechen esta instancia de aprendizaje, experimenten y, sobre todo, ¡diviértanse!
