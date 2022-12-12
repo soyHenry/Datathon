@@ -63,10 +63,10 @@ La solución propuesta debe incluir los siguientes ítems, por cada uno cumplido
 ​
 Como método de evaluación del desempeño del modelo, se utilizará la métrica de Exhaustividad (Recall) para las estadías hospitalarias largas, a partir de la matriz de confusión (Confusion Matrix). 
 
-​
+
 $$ Recall=\frac{TP}{TP+FN}$$
 
-​
+
 Donde $TP$ son los verdaderos positivos y $FN$ los falsos negativos.
 
 Como métrica adicional para verificar el desempeño de su modelo, también se utilizará la métrica de precisión (Accuracy) para las estadías hospitalarias largas.
