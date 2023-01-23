@@ -53,20 +53,20 @@ Como método de evaluación del desempeño, dependerá del modelo que usted deci
 
 $$ Accuracy=\frac{TP+TN}{P+N}$$
 
-siendo $TP$ los verdaderos positivos, $TN$ verdaderos negativos y $P+N$ población total.
+siendo $TP$ los verdaderos positivos (las propiedades de precio 'low' que realmente lo son), $TN$ verdaderos negativos (las propiedades que realmente NO son de precio 'low') y $P+N$ población total.
 
 Como métrica adicional para verificar el desempeño de su modelo, también se utilizará la métrica de precisión (Recall) para las propiedades baratas.
 
 $$ Recall=\frac{TP}{TP+FN}$$
 
 ​
-Donde $TP$ son los verdaderos positivos y $FN$ los falsos negativos.
+Donde $TP$ son los verdaderos positivos (las propiedades de precio 'low' que realmente lo son) y $FN$ los falsos negativos (las propiedades de precio 'low' que fueron marcadas incorrectamente).
 
 ​
-2. Para el modelo de aprendizaje no supervisado, se utilizará la métrica `Silhouette score`:
-​
+2. Para el modelo de aprendizaje no supervisado, se utilizará la métrica `Silhouette score`.
+
 $$ Silhouette=\frac{b_i-a_i}{max(b_i,a_i)}$$
-​
+
 Dónde $b_i$ es la distancia promedio al grupo más cercano desde el punto i, $a_i$ es la distancia promedio a todos los demás puntos del clúster al que pertenece el punto i. 
 ​
 ## **Criterio de evaluación**
