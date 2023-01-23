@@ -98,7 +98,7 @@ Se proveen los siguientes archivos en formato parquet:
 - url: Link web del anuncio.
 - region: Región de Estados Unidos en donde se encuentra la propiedad.
 - region_url: Link web de los anuncios pertenecientes a la región. 
-- price: Precio de la propiedad en petrodólares.
+- price: Precio de la propiedad en dólares.
 - type: Tipo de propiedad.
 - sqfeet: Metros cuadrados de la propiedad.
 - beds: Cantidad de dormitorios.
