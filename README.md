@@ -61,6 +61,22 @@ $$ Silhouette=\frac{b_i-a_i}{max(b_i,a_i)}$$
 ​
 Dónde $b_i$ es la distancia promedio al grupo más cercano desde el punto i, $a_i$ es la distancia promedio a todos los demás puntos del clúster al que pertenece el punto i. 
 ​
+## **Criterio de evaluación**
+
+Deberán crear un repositorio en GitHub con acceso público donde subirán la solución propuesta en un archivo de Jupyter Notebook (.ipynb) o bien un script de Python (.py) y el archivo de texto plano con valores separados por comas (.csv) con las predicciones. Dicho repositorio deben compartirlo en el formulario de entrega, junto al archivo .csv con las predicciones. Deberán escribir su propio readme, describiendo brevemente el problema y la solución que proponen (no debe ser una simple copia de la consigna del PI).
+
+La solución propuesta debe incluir además los siguientes ítems, por cada uno cumplido sumará 1 punto, siendo 1 la nota mínima y 5 la nota máxima:
+
+- Entrenamiento y predicción utilizando un Modelo de Machine Learning adecuado al problema (clasificación o regresión), o no supervisado en caso de elegir esa vía.
+- Análisis exploratorio de los datos (EDA).
+- Repositorio de GitHub propio, con un readme redactado introduciendo su proyecto (no debe ser simplemente copia del que le presentamos)
+- Comentarios y redacción con la fundamentación de la solución propuesta, escrita en Markdown en el Jupyter Notebook (.ipynb) o bien en un documento aparte.
+- Entregar ambos modelos, uno supervisado y otro no supervisado.
+
+Recomendaciones:
+- División de dataset en train y test utilizando train_test_split, CV, KFold o similares.
+- Utilización de Pipelines en la producción del modelo.
+
 ## Archivos provistos
 ​
 Se proveen los siguientes archivos en formato parquet:
