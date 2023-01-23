@@ -49,11 +49,19 @@ En el formulario de entrega, deben subir el archivo de la predicción en la secc
 ​
 Como método de evaluación del desempeño, dependerá del modelo que usted decida implementar.
 ​
-1. Para el modelo de aprendizaje supervisado, se utilizará la métrica `Accuracy` para las propiedades de precio bajo (low):
+1. Para el modelo de aprendizaje supervisado, se utilizará la métrica `Accuracy` para las propiedades de precio bajo (low) a partir de la matriz de confusión (Confusion Matrix).
+
+$$ Accuracy=\frac{TP+TN}{P+N}$$
+
+siendo $TP$ los verdaderos positivos, $TN$ verdaderos negativos y $P+N$ población total.
+
+Como métrica adicional para verificar el desempeño de su modelo, también se utilizará la métrica de precisión (Recall) para las propiedades baratas.
+
+$$ Recall=\frac{TP}{TP+FN}$$
+
 ​
-$$ Recall=\frac{TP+ TN}{TP+TN+FP+FN}$$
-​
-Donde $TP$ son los verdaderos positivos, $FP$ los falsos positivos, $FN$ los falsos negativos y $FN$ los falsos negativos. 
+Donde $TP$ son los verdaderos positivos y $FN$ los falsos negativos.
+
 ​
 2. Para el modelo de aprendizaje no supervisado, se utilizará la métrica `Silhouette score`:
 ​
