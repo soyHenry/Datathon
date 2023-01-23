@@ -23,9 +23,9 @@ El Team Lider le propone dos predicciones posibles, de las cuales puede elegir c
 1. Implementar un modelo de clasificación con aprendizaje supervisado que permita clasificar el precio de las propiedades en venta, utilizando los datos que se han puesto a su disposición.
 ​
 Para esto debe crear la columna `category_price`, en la cual se consideran las categorías
-   * 'low': Para precios entre 0 y 999 dólares.
-   * 'medium': Para precios entre 1000 y 1999 dólares.
-   * 'high': Para precios desde 2000 dólares en adelante. 
+   * 'low': Para precios entre 0 y 999 dólares (debe tomar valor 1 en el archivo con las predicciones).
+   * 'medium': Para precios entre 1000 y 1999 dólares (debe tomar valor 0 en el archivo con las predicciones).
+   * 'high': Para precios desde 2000 dólares en adelante (debe tomar valor 0 en el archivo con las predicciones). 
 ​
     Considerando esta categorización, el objetivo es predecir si una propiedad pertenece a la categoría de precios bajos (low).
 ​
