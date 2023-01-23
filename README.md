@@ -29,7 +29,7 @@ Para esto debe crear la columna `category_price`, en la cual se consideran las c
 ​
     Considerando esta categorización, el objetivo es predecir si una propiedad pertenece a la categoría de precios bajos (low).
 ​
-2. Implementar un modelo de clasificación con aprendizaje no supervisado, utilizando clustering que agrupe las propiedades por segun las **3 categorias** a las que pueden pertenecer. 
+2. Implementar un modelo de clasificación con aprendizaje no supervisado, utilizando clustering que agrupe las propiedades por segun las **3 categorias** a las que pueden pertenecer. Para ello, solo usaran el dataset de test provisto, eliminando previamente las caracteristicas que presenten nulos.
 ​
 ## Entrega
 ​
